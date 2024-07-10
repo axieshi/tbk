@@ -211,7 +211,7 @@ const getUrlParamValByKey = (url, key) => {
         return null;
     }
     clone_url = clone_url.replace(/&amp;/g, "&");
-    const str = clone_url.split("?")[1];
+    const str = clone_url.includes('?') ? clone_url.split("?")[1] : '';
     const arr = str.split("&");
     let res = "";
     arr.forEach((element) => {
