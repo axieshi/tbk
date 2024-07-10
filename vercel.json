@@ -5,5 +5,11 @@
       "src": "tbk-api-server/index.js",
       "use": "@now/node"
     }
+  ],
+   "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "tbk-api-server/index.js"
+    }
   ]
 }
