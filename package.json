@@ -8,6 +8,11 @@
     "server": "cd /tbk/tbk-api-server && node index.js",
     "lint": "eslint . --ext .js --fix"
   },
+  "vercel": {
+    "buildCommand": "npm ci",
+    "devCommand": "npm run server",
+    "outputDirectory": "."
+  },
   "keywords": [
     "淘宝客"
   ],
