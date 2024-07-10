@@ -4,20 +4,20 @@ module.exports = {
     RAKE: 0.92, // 返利给用户的比例
     JDconfig: {
         // 京东联盟
-        appKey: "",
-        appSecret: "",
+        appKey: "1111",
+        appSecret: "1111",
     },
     TBconfig: {
         // 阿里联盟
-        appkey: "",
-        appsecret: "",
-        adzone_id: "", // 推广位pid 'mm_123_456_789' 的789就是adzone_id  获取链接 https://pub.alimama.com/third/manage/record/adzone.htm
+        appkey: "34730006",
+        appsecret: "31aa95ec0d5aefea82c26cffb86e7339",
+        adzone_id: "mm_123003415_23208808_77072376", // 推广位pid 'mm_123_456_789' 的789就是adzone_id  获取链接 https://pub.alimama.com/third/manage/record/adzone.htm
     },
     PDDconfig: {
         // 多多客
-        clientId: "",
-        clientSecret: "",
-        pid: "", // 推广位pid
+        clientId: "3333",
+        clientSecret: "3333",
+        pid: "3333", // 推广位pid
     },
     autoAcceptFriend: true, // 自动接受好友
     acceptFriendKeyWords: [], // 接受好友认证关键词
